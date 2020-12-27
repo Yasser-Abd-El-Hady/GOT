@@ -1,0 +1,84 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000000026b3f89, pid=257692, tid=0x000000000003fc68
+#
+# JRE version: OpenJDK Runtime Environment (8.0_112-b06) (build 1.8.0_112-release-b06)
+# Java VM: OpenJDK 64-Bit Server VM (25.112-b06 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# j  com.android.build.gradle.internal.TaskManager.createPackagingTask(Lcom/android/build/gradle/internal/TaskFactory;Lcom/android/build/gradle/internal/scope/VariantScope;ZLcom/android/build/gradle/internal/scope/AndroidTask;)V+1235
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000001906a800):  JavaThread "Daemon worker" [_thread_in_Java, id=261224, stack(0x000000001c880000,0x000000001ca80000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0xffffffffffffffff
+
+Registers:
+RAX=0x0000000000000000, RBX=0x0000000028cd9608, RCX=0x00000000e19e6758, RDX=0x000000000269809d
+RSP=0x000000001ca7c538, RBP=0x000000001ca7c5a8, RSI=0x00000000200cc985, RDI=0x00000000e19e6718
+R8 =0x0000000000000001, R9 =0x00000000000000de, R10=0x0000000063dd8630, R11=0x00000000a0c59b28
+R12=0x0000000000000000, R13=0x000000001ca7c540, R14=0x000000001ca7c690, R15=0x000000001906a800
+RIP=0x00000000026b3f89, EFLAGS=0x0000000000010246
+
+Top of Stack: (sp=0x000000001ca7c538)
+0x000000001ca7c538:   000000000269809d 00000000e8802c18
+0x000000001ca7c548:   00000000e19e6758 00000000e19e6758
+0x000000001ca7c558:   00000000e884fae0 00000000e870a480
+0x000000001ca7c568:   000000001ca7c568 0000000020fee38b
+0x000000001ca7c578:   000000001ca7c690 0000000021762428
+0x000000001ca7c588:   0000000000000000 0000000020fee630
+0x000000001ca7c598:   000000001ca7c540 000000001ca7c670
+0x000000001ca7c5a8:   000000001ca7c6d8 000000000269809d
+0x000000001ca7c5b8:   0000000000000000 00000000e8a256a0
+0x000000001ca7c5c8:   00000000a0810540 00000000e1928468
+0x000000001ca7c5d8:   0000000000000000 00000000e19284e8
+0x000000001ca7c5e8:   00000000e8802cf0 0000000000000000
+0x000000001ca7c5f8:   00000000e1928468 00000000e1922e80
+0x000000001ca7c608:   0000000000000000 00000000e87423e0
+0x000000001ca7c618:   00000000e8803af0 00000000e8803a70
+0x000000001ca7c628:   00000000e1922e60 00000000e8803a20 
+
+Instructions: (pc=0x00000000026b3f89)
+0x00000000026b3f69:   48 83 c0 10 4c 8b 68 d8 41 83 ed 04 41 c1 e5 03
+0x00000000026b3f79:   49 03 c5 48 89 45 e0 4c 8d 6c 24 08 4c 89 6d f0
+0x00000000026b3f89:   ff 63 50 0f 1f 40 00 00 00 00 00 00 00 00 00 00
+0x00000000026b3f99:   00 00 00 00 00 00 00 a0 02 00 00 00 00 00 00 00 
+
+
+Register to memory mapping:
+
+RAX=0x0000000000000000 is an unknown value
+RBX=0x0000000028cd9608 is pointing into metadata
+RCX=0x00000000e19e6758 is an oop
+com.android.build.gradle.internal.tasks.UninstallTask$ConfigAction 
+ - klass: 'com/android/build/gradle/internal/tasks/UninstallTask$ConfigAction'
+RDX=0x000000000269809d is at code_begin+2301 in an Interpreter codelet
+invoke return entry points  [0x00000000026977a0, 0x0000000002698180]  2528 bytes
+RSP=0x000000001ca7c538 is pointing into the stack for thread: 0x000000001906a800
+RBP=0x000000001ca7c5a8 is pointing into the stack for thread: 0x000000001906a800
+RSI=0x00000000200cc985 is an unknown value
+RDI=0x00000000e19e6718 is an oop
+org.gradle.listener.ClosureBackedMethodInvocationDispatch 
+ - klass: 'org/gradle/listener/ClosureBackedMethodInvocationDispatch'
+R8 =0x0000000000000001 is an unknown value
+R9 =0x00000000000000de is an unknown value
+R10=0x0000000063dd8630 is an unknown value
+R11=0x00000000a0c59b28 is an oop
+java.util.LinkedHashMap$Entry 
+ - klass: 'java/util/LinkedHashMap$Entry'
+R12=0x0000000000000000 is an unknown value
+R13=0x000000001ca7c540 is pointing into the stack for thread: 0x000000001906a800
+R14=0x000000001ca7c690 is pointing into the stack for thread: 0x000000001906a800
+R15=0x000000001906a800 is a thread
+
+
+Stack: [0x000000001c880000,0x000000001ca80000],  sp=0x000000001ca7c538,  free space=2033k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x00000000026b3f89

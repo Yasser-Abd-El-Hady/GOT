@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.muhammed.advertiapp.ContactUsActivity"
+    tools:showIn="@layout/app_bar_contact_us">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="240dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="todo"
+            android:padding="16dp"
+            android:src="@mipmap/ic_launcher_app4_round" />
+
+        <TextView
+            android:id="@+id/nameApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/purple"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:text="@string/versionApp"
+            android:textColor="@color/purple"
+            android:textSize="20dp" />
+
+
+        <LinearLayout
+            android:id="@+id/phoneApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="left"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:src="@mipmap/ic_launcher_call_round"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="@string/phoneNumberTeam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/editText2"
+            android:layout_gravity="end"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black2"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:id="@+id/addressApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:src="@mipmap/ic_launcher_location_round"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="@string/addressTeam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/editText2"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black2"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:id="@+id/accountApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:src="@mipmap/ic_launcher_gmail_round"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="@string/Account_App"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/editText2"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black2"
+            tools:ignore="RtlCompat" />
+
+
+        <LinearLayout
+            android:id="@+id/whatsappTeam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:src="@mipmap/ic_launcher_whatsapp_round"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="@string/whatsappTeam"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/editText2"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black2"
+            tools:ignore="RtlCompat" />
+
+
+    </LinearLayout>
+
+</ScrollView>

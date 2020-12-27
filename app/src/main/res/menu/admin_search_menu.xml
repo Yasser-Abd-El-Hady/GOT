@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@mipmap/ic_launcher_search"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="collapseActionView|ifRoom"></item>
+
+    <item
+        android:id="@+id/addAds"
+        android:title="@string/title_activity_add_ad"></item>
+
+    <item
+        android:id="@+id/addCategory"
+        android:title="@string/title_activity_add_category"></item>
+
+    <item
+        android:id="@+id/viewAllAds"
+        android:title="@string/ViewAllAds"></item>
+
+    <item
+        android:id="@+id/viewAllCategory"
+        android:title="@string/ViewAllCategories"></item>
+
+
+</menu>

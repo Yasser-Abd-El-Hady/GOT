@@ -1,0 +1,84 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x0000000002993f89, pid=128812, tid=0x000000000001f748
+#
+# JRE version: OpenJDK Runtime Environment (8.0_112-b06) (build 1.8.0_112-release-b06)
+# Java VM: OpenJDK 64-Bit Server VM (25.112-b06 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# j  org.gradle.api.tasks.util.internal.CachingPatternSpecFactory$CachingSpec.isSatisfiedBy(Lorg/gradle/api/file/FileTreeElement;)Z+15
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000000001a726000):  JavaThread "Daemon worker" [_thread_in_Java, id=128840, stack(0x000000001ca10000,0x000000001cc10000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0xffffffffffffffff
+
+Registers:
+RAX=0x0000000000000000, RBX=0x000000002a1d2520, RCX=0x00000000e22dc798, RDX=0x000000000297809d
+RSP=0x000000001cc0c6c0, RBP=0x000000001cc0c730, RSI=0x00000000200d819d, RDI=0x00000000000008db
+R8 =0x00000000e6e1e2e0, R9 =0x00000000a025ab70, R10=0x0000000069908630, R11=0x0000000003d71900
+R12=0x0000000000000000, R13=0x000000001cc0c6c8, R14=0x000000001cc0c758, R15=0x000000001a726000
+RIP=0x0000000002993f89, EFLAGS=0x0000000000010246
+
+Top of Stack: (sp=0x000000001cc0c6c0)
+0x000000001cc0c6c0:   000000000297809d 0000000000000000
+0x000000001cc0c6d0:   00000000e66fa3d0 00000000e22dc6d8
+0x000000001cc0c6e0:   00000000e22dc798 00000000e22dc798
+0x000000001cc0c6f0:   000000001cc0c6f0 0000000023219fb7
+0x000000001cc0c700:   000000001cc0c758 000000002321a2c8
+0x000000001cc0c710:   0000000000000000 000000002321a028
+0x000000001cc0c720:   000000001cc0c6c8 000000001cc0c750
+0x000000001cc0c730:   000000001cc0c7a0 0000000002977870
+0x000000001cc0c740:   0000000000000000 0000000000000000
+0x000000001cc0c750:   00000000e22dc740 00000000e66fab80
+0x000000001cc0c760:   000000001cc0c760 000000002321a16d
+0x000000001cc0c770:   000000001cc0c7b8 000000002321a2c8
+0x000000001cc0c780:   0000000000000000 000000002321a190
+0x000000001cc0c790:   000000001cc0c750 000000001cc0c7b0
+0x000000001cc0c7a0:   000000001cc0c800 00000000029778b5
+0x000000001cc0c7b0:   00000000e22dc740 00000000e66fab80 
+
+Instructions: (pc=0x0000000002993f89)
+0x0000000002993f69:   48 83 c0 10 4c 8b 68 d8 41 83 ed 04 41 c1 e5 03
+0x0000000002993f79:   49 03 c5 48 89 45 e0 4c 8d 6c 24 08 4c 89 6d f0
+0x0000000002993f89:   ff 63 50 0f 1f 40 00 00 00 00 00 00 00 00 00 00
+0x0000000002993f99:   00 00 00 00 00 00 00 a0 02 00 00 00 00 00 00 00 
+
+
+Register to memory mapping:
+
+RAX=0x0000000000000000 is an unknown value
+RBX=0x000000002a1d2520 is pointing into metadata
+RCX=0x00000000e22dc798 is an oop
+org.gradle.api.tasks.util.internal.CachingPatternSpecFactory$CacheKey 
+ - klass: 'org/gradle/api/tasks/util/internal/CachingPatternSpecFactory$CacheKey'
+RDX=0x000000000297809d is at code_begin+2301 in an Interpreter codelet
+invoke return entry points  [0x00000000029777a0, 0x0000000002978180]  2528 bytes
+RSP=0x000000001cc0c6c0 is pointing into the stack for thread: 0x000000001a726000
+RBP=0x000000001cc0c730 is pointing into the stack for thread: 0x000000001a726000
+RSI=0x00000000200d819d is an unknown value
+RDI=0x00000000000008db is an unknown value
+R8 =0x00000000e6e1e2e0 is an oop
+java.lang.String 
+ - klass: 'java/lang/String'
+R9 =0x00000000a025ab70 is an oop
+java.lang.Class 
+ - klass: 'java/lang/Class'
+R10=0x0000000069908630 is an unknown value
+R11=0x0000000003d71900 is at entry_point+32 in (nmethod*)0x0000000003d71790
+R12=0x0000000000000000 is an unknown value
+R13=0x000000001cc0c6c8 is pointing into the stack for thread: 0x000000001a726000
+R14=0x000000001cc0c758 is pointing into the stack for thread: 0x000000001a726000
+R15=0x000000001a726000 is a thread
+
+
+Stack: [0x000000001ca10000,0x000000001cc10000],  sp=0x000000001cc0c6c0,  free space=2033k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  0x0000000002993f89

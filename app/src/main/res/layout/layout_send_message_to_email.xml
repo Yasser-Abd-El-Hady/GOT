@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/newMessage"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/senderMessage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_text3"
+        android:gravity="center_vertical"
+        android:text="@string/from"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+
+    <TextView
+        android:id="@+id/receiverMessage"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_text3"
+        android:gravity="center_vertical"
+        android:text="@string/to"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutSubjectMessageEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.5">
+
+        <EditText
+            android:id="@+id/editSubjectMessageEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/Subject"
+            android:inputType="textMultiLine"
+            android:paddingTop="1dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayoutTextMessageEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.5">
+
+        <EditText
+            android:id="@+id/editTextMessageEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/background_text"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/Text"
+            android:inputType="textMultiLine"
+            android:paddingTop="1dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/sendMessageEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:width="25dp"
+            android:background="@color/signupBu"
+            android:text="@string/Send"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancelSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:width="25dp"
+            android:background="@color/signupBu"
+            android:text="@string/Cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

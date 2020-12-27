@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.muhammed.advertiapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app4"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_app4_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LogIn_SignUp_Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".CommentActivity" />
+        <activity
+            android:name=".AddCategoryActivity"
+            android:label="@string/title_activity_add_category" />
+        <activity
+            android:name=".ViewAllCategories_Admin"
+            android:label="@string/title_activity_all_categories" />
+        <activity
+            android:name=".EditCategory"
+            android:label="@string/title_activity_edit_category" />
+        <activity
+            android:name=".View_Ads_By_Category"
+            android:label="@string/title_activity_ads" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_navegation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewParentCategories"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ViewSomeAds" />
+        <activity
+            android:name=".ViewAllAds_Admin"
+            android:label="@string/title_activity_all_ads" />
+        <activity android:name=".GridViewSomeAds" />
+        <activity
+            android:name=".SavedAdsActivity"
+            android:label="@string/title_activity_saved_ads"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_place_api" />
+
+        <activity
+            android:name=".Add_Ad"
+            android:label="@string/title_activity_add_ad" />
+        <activity
+            android:name=".Edit_Ad"
+            android:label="@string/title_activity_edit_ad" />
+        <activity
+            android:name=".FullScreenImage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FullScreenVideo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/ContactUs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/About"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

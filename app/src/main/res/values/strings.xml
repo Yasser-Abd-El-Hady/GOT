@@ -1,0 +1,220 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">GOT</string>
+
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_name">Please Enter a Valid Name</string>
+    <string name="err_msg_birthday">Please Enter a Valid Birthday</string>
+    <string name="err_msg_address">Please Enter a Valid Address</string>
+    <string name="err_msg_phone">Please Enter a Valid Phone</string>
+    <string name="err_msg_email">Please Enter a Valid Email</string>
+    <string name="err_msg_password">Please Enter a Password</string>
+    <string name="err_msg_password_beginning_space">Please Enter a Password Without Space in The Beginning</string>
+    <string name="err_msg_password_end_spaces">Please Enter a Password Without Space in The End</string>
+
+    <string name="title_activity_add_ad">Add Ad</string>
+    <!--<string name="title_activity_user__ads__view">User_Ads_View</string>-->
+    <!--<string name="title_activity_ads__main">Ads_Main</string>-->
+
+    <string name="title_activity_navegation_drawer">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_main2">Categories</string>
+    <string name="title_activity_saved_ads">Saved</string>
+    <string name="title_activity_add_category">Add Category</string>
+    <string name="title_activity_all_categories">All Categories</string>
+    <string name="title_activity_edit_category">Edit Category</string>
+    <string name="title_activity_ads">Ads</string>
+    <string name="title_activity_edit_ad">Edit Ad</string>
+    <string name="title_activity_all_ads">All Ads</string>
+
+    <string name="name">Name : </string>
+    <string name="birthday">Birthday : </string>
+    <string name="address">Address : </string>
+    <string name="phone">Phone : </string>
+    <string name="email">Email : </string>
+    <string name="type">Type : </string>
+    <string name="title_activity_profile">Profile</string>
+
+    <string name="forgotPassword">How do you want to get the code to reset your password</string>
+    <string name="forgotPassword2">Please check your phone for a text message with your code\nYour code is 6 numbers long</string>
+    <string name="forgotPassword3">Create a new password</string>
+
+    <string name="SendToSmS">Send code via SMS</string>
+    <string name="SendToEmail">Send code via Email</string>
+
+
+    <string name="err_msg_current_password">Please Enter Current Password</string>
+    <string name="err_msg_new_password">Please Enter a New Password</string>
+    <string name="err_msg_add_code">Please Enter The 6-digit code</string>
+
+    <string name="now">Just now</string>
+    <string name="second">&#160;second ago</string>
+    <string name="seconds">&#160;seconds ago</string>
+    <string name="minute">&#160;minute ago</string>
+    <string name="minutes">&#160;minutes ago</string>
+    <string name="hour">&#160;hour ago</string>
+    <string name="hours">&#160;hours ago</string>
+    <string name="yesterday">Yesterday at&#160;</string>
+    <string name="at">&#160;at&#160;</string>
+
+
+    <string name="parent">Parent Name</string>
+    <string name="selectParent">You must select parent name</string>
+    <string name="Visibility">Visibility</string>
+    <string name="InVisible">Invisible</string>
+    <string name="Visible">Visible</string>
+    <string name="selectVisibility">You must select Visibility</string>
+
+
+    <string name="rate1">Hated it</string>
+    <string name="rate2">Disliked it</string>
+    <string name="rate3">It\'s OK</string>
+    <string name="rate4">Liked it</string>
+    <string name="rate5">Loved it</string>
+
+    <string name="to">To :&#160;</string>
+    <string name="from">From :&#160;</string>
+
+    <string name="copyNumber">Phone Number Copied</string>
+    <string name="Unsaved">Unsaved</string>
+    <string name="saved">Saved</string>
+    <string name="copy">Copied</string>
+    <string name="deleteComment">This comment cannot be deleted</string>
+    <string name="editComment">This comment cannot be edited</string>
+
+    <string name="Sending">Sending</string>
+    <string name="doneSend">Done sent</string>
+
+    <string name="addComment">Please add any comment</string>
+    <string name="errorInput">Error Input</string>
+    <string name="confirmDeleteComment">Are you sure you want to delete this comment?</string>
+    <string name="confirmSendMessageEmail">Do you want to send this message without text in the subject or message body?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="timeRate">Rated on&#160;</string>
+
+
+    <string name="confirmDeleteCategory">Are you sure you want to delete this category?</string>
+
+    <string name="wait">Please Wait</string>
+    <string name="loginSuccessfully">Login Successfully</string>
+    <string name="loginFailed">Email and password are incorrect</string>
+
+    <string name="createAccount">Create New Account</string>
+
+    <string name="selectImage">Select Image From Gallery</string>
+    <string name="subjectMessage">\nis your GOT account recovery code\nهو الرمز الخاص لاسترداد حسابك في GOT</string>
+    <string name="textMessage">Hi&#160; <xliff:g example="User" id="name">%s</xliff:g> \n We received a request to reset your GOT password \n Use this code to change your password</string>
+    <string name="textMessageArabic"> \n مرحبا&#160; <xliff:g example="مستخدم" id="name">%s</xliff:g>\n لقد تلقينا طلبا لإعادة تعيين كلمة مرور GOT \n </string>
+    <string name="sentCode">We sent your code to:\n</string>
+    <string name="pickedImage">You haven\'t picked Image</string>
+    <string name="pickedVideo">You haven\'t picked Video</string>
+    <string name="selectAddress">You haven\'t a select Address</string>
+    <string name="cropImage">You haven\'t crop Image</string>
+    <string name="incorrectCode">The Number you entered doesn\'t match your code, try again</string>
+    <string name="incorrectPassword">The password is incorrect. Try again</string>
+    <string name="selectAccount">Please Enter Your Google Account 🙂</string>
+    <string name="updatedSuccessfully">Updated Successfully</string>
+    <string name="updateFailed">Update Failed</string>
+    <string name="registeredEmail">You haven\'t registered email account</string>
+
+    <string name="enterImage">Please Enter Your Image Profile</string>
+    <string name="accountUsed">This account is used previously</string>
+
+    <string name="topViews">Top Views</string>
+    <string name="topRates">Top Rates</string>
+    <string name="suggested">Suggested For You</string>
+    <string name="newAndUpdate">New &amp; Update</string>
+
+    <string name="err_details_name">Please Enter a Valid Details</string>
+    <string name="err_start_date">Please Enter a Valid Start Date</string>
+    <string name="err_expiry_date">Please Enter a Valid Expiry Date</string>
+    <string name="err_start_time">Please Enter a Valid Start Time</string>
+    <string name="err_expiry_time">Please Enter a Valid Expiry Time</string>
+    <string name="err_select_category">Please Select Category</string>
+    <string name="err_company_name_required">Please Select Company Name</string>
+    <string name="err_visibility_required">Please Select Visible or Invisible</string>
+
+    <string name="addedSuccessfully">Added Successfully</string>
+    <string name="addFailed">Added Failed</string>
+    <string name="confirmDeleteAd">Are you sure you want to delete this ad?</string>
+    <string name="deleteAd">Ad Deleted</string>
+    <string name="failedDeleteAd">Failed Delete</string>
+    <string name="editedSuccessfully">Edit Successfully</string>
+    <string name="editFailed">Edit Failed</string>
+
+    <string name="subjectMessageRegistration">\nis your GOT account code\nهو الرمز الخاص لتسجيل حسابك في GOT</string>
+    <string name="textMessageRegistration">Hi&#160; <xliff:g example="User" id="name">%s</xliff:g> \n Use this code To complete your registration on AdvertiApp \n </string>
+    <string name="textMessageArabicRegistration"> \n مرحبا&#160; <xliff:g example="مستخدم" id="name">%s</xliff:g>\n استخدم هذا الرمز لاتمام تسجيلك علي AdvertiApp\n </string>
+    <string name="emailValidation">Please check your email for a text message with your code\nYour code is 6 numbers long</string>
+
+    <string name="noConnection">There isn\'t internet connection</string>
+    <string name="arabic">Arabic</string>
+    <string name="ad">&#160;ad</string>
+    <string name="ads">&#160;ads</string>
+    <string name="err_arabic_name">Please Enter a Valid Arabic Name</string>
+
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="signUp">Sign Up</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+
+    <string name="Name">Name</string>
+    <string name="Birthday">Birthday</string>
+    <string name="Address">Address</string>
+    <string name="Phone">Phone</string>
+    <string name="Submit">Submit</string>
+    <string name="writeComment">Write a comment...</string>
+    <string name="rateAd"><u>Rate this ad</u></string>
+    <string name="changePassword"><u>Change Password</u></string>
+    <string name="currentPassword">Current Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="Save">Save</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ForgotPassword">Forgot Password ?</string>
+    <string name="Edit">Edit</string>
+    <string name="Update">Update</string>
+    <string name="Continue">Continue</string>
+    <string name="enterSixCode">Enter the 6-digit code</string>
+    <string name="NewPassword">Enter a new password</string>
+    <string name="newMessage">New Message</string>
+    <string name="Subject">Subject</string>
+    <string name="Text">Text</string>
+    <string name="Send">Send</string>
+    <string name="Reviews">Reviews</string>
+    <string name="ChangePassword">Change Password</string>
+    <string name="EditProfile">Edit Profile</string>
+    <string name="AllAdsCompany">All ads of this company</string>
+    <string name="Views">Views</string>
+    <string name="Call">Call&#160;\n</string>
+    <string name="SendSMS">Send SMS</string>
+    <string name="SendEmail">Send Email</string>
+    <string name="CopyNumber">Copy Number</string>
+    <string name="Delete">Delete</string>
+    <string name="Copy">Copy</string>
+    <string name="ViewAllAds">View All Ads</string>
+    <string name="ViewAllCategories">View All Categories</string>
+    <string name="About">About</string>
+    <string name="Logout">Logout</string>
+    <string name="Share">Share</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="Communicate">Communicate</string>
+    <string name="google_place_api">AIzaSyDJBhiLQ5n5jS21PrgH8_4MnkJQB_lJauE</string>
+
+    <string name="search">Search</string>
+
+    <string name="Account_App">gotadsapp@gmail.com</string>
+    <string name="phoneNumberTeam">+201117744360</string>
+    <string name="addressTeam">Cairo, Egypt</string>
+    <string name="whatsappTeam">+201141456637</string>
+    <string name="versionApp">Version 1.0.0</string>
+    <string name="title_activity_about">About</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="summary">Because of the very high prices of traditional marketing and advertising on television and in addition to the user’s desire to know the services and products of different companies and compare them in terms of price and quality GOT application has been created to help both users and companies, helping companies to save huge expenses spent on advertising also helps the user to save time and effort to get the service or product he/ she wants, , the user will able to view the advertisements of the products and services of the companies and give them an evaluation rate and shows his opinion through commenting on them which helps these users to save time, effort and money in addition to helping new users to know the most popular and highest rated products as well as helping companies to increase their sales and save time and money in the product deployment and know the evaluation rate of the products to improve them.</string>
+
+    <string name="sdkPhone">Cannot select video from phone, you must use an older phone than your phone</string>
+</resources>

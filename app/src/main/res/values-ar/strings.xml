@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">GOT</string>
+
+
+    <string name="err_msg_required">مطلوب إدخال قيمه صحيحه</string>
+    <string name="err_msg_name">من فضلك إدخل الاسم</string>
+    <string name="err_msg_birthday">من فضلك إدخل تاريخ الميلاد</string>
+    <string name="err_msg_address">من فضلك إدخل عنوان</string>
+    <string name="err_msg_phone">من فضلك إدخل رقم الهاتف</string>
+    <string name="err_msg_email">من فضلك ادخل بريد الإلكتروني</string>
+    <string name="err_msg_password">من فضلك إدخل كلمة المرور</string>
+    <string name="err_msg_password_beginning_space">من فضلك إدخل كلمة المرور بدون مسافات في البداية</string>
+    <string name="err_msg_password_end_spaces">من فضلك إدخل كلمة المرور بدون مسافات في النهاية</string>
+
+    <string name="title_activity_add_ad">إضافة إعلان</string>
+    <!--<string name="title_activity_user__ads__view">User_Ads_View</string>-->
+    <!--<string name="title_activity_ads__main">Ads_Main</string>-->
+
+    <string name="title_activity_navegation_drawer">الصفحة الرئيسية</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_main2">فئات</string>
+    <string name="title_activity_saved_ads">المحفوظات</string>
+    <string name="title_activity_add_category">إضافه فئة</string>
+    <string name="title_activity_all_categories">كل الفئات</string>
+    <string name="title_activity_edit_category">تعديل فئة</string>
+    <string name="title_activity_ads">إعلانات</string>
+    <string name="title_activity_edit_ad">تعديل إعلان</string>
+    <string name="title_activity_all_ads">كل الإعلانات</string>
+
+    <string name="name">الاسم : </string>
+    <string name="birthday">تاريخ الميلاد : </string>
+    <string name="address">العنوان : </string>
+    <string name="phone">رقم الهاتف : </string>
+    <string name="email">البريد الإلكتروني : </string>
+    <string name="type">النوع : </string>
+    <string name="title_activity_profile">الصفحة الشخصية</string>
+
+    <string name="forgotPassword">كيف تريد الحصول على الرمز لإعادة تعيين كلمة المرور</string>
+    <string name="forgotPassword2">يرجى التحقق من هاتفك لإرسال رسالة نصية تحتوي على الرمز n\الرمز الخاص بك يتكون من 6 أرقام</string>
+    <string name="forgotPassword3">أنشئ كلمة مرور جديدة</string>
+
+    <string name="SendToSmS">إرسال الرمز عبر SMS</string>
+    <string name="SendToEmail">إرسال الرمز عبر البريد الإلكتروني</string>
+
+
+    <string name="err_msg_current_password">الرجاء إدخال كلمة المرور الحالية</string>
+    <string name="err_msg_new_password">الرجاء إدخال كلمة مرور جديدة</string>
+    <string name="err_msg_add_code">الرجاء إدخال الرمز المكون من 6 أرقام</string>
+
+
+    <string name="now">الان</string>
+    <string name="second">ثانية&#160;</string>
+    <string name="seconds">&#160;ثواني</string>
+    <string name="minute">&#160;دقيقة</string>
+    <string name="minutes">&#160;دقائق</string>
+    <string name="hour">&#160;ساعة</string>
+    <string name="hours">&#160;ساعات</string>
+    <string name="yesterday">أمس الساعة&#160;</string>
+    <string name="at">,&#160;</string>
+
+    <string name="parent">Parent Name</string>
+    <string name="selectParent">You must select parent name</string>
+    <string name="Visibility">Visibility</string>
+    <string name="InVisible">Invisible</string>
+    <string name="Visible">Visible</string>
+    <string name="selectVisibility">You must select Visibility</string>
+
+
+    <string name="rate1">كرهتة</string>
+    <string name="rate2">لم يعجبني</string>
+    <string name="rate3">جيدة</string>
+    <string name="rate4">أحببتة</string>
+    <string name="rate5">أعشقتة</string>
+
+
+    <string name="to">إلى&#160;</string>
+    <string name="from">من&#160;</string>
+
+    <string name="copyNumber">تم نسخ رقم الهاتف</string>
+    <string name="Unsaved">غير محفوظ</string>
+    <string name="saved">تم الحفظ</string>
+    <string name="copy">تم النسخ</string>
+    <string name="deleteComment">لا يمكن حذف هذا التعليق</string>
+    <string name="editComment">لا يمكن تعديل هذا التعليق</string>
+
+
+    <string name="Sending">جاري الإرسال</string>
+    <string name="doneSend">تم الإرسال</string>
+
+
+    <string name="addComment">من فضلك إدخل تعليق</string>
+    <string name="errorInput">خطأ في الإدخال</string>
+    <string name="confirmDeleteComment">هل بالفعل تريد حذف هذا التعليق؟</string>
+    <string name="confirmSendMessageEmail">هل تريد إرسال هذه الرسالة بدون نص في الموضوع أو نص الرسالة؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="timeRate">تم التقييم&#160;</string>
+
+    <string name="confirmDeleteCategory">هل بالفعل تريد حذف هذه الفئه؟</string>
+
+    <string name="wait">من فضلك انتظر</string>
+    <string name="loginSuccessfully">تم تسجيل الدخول</string>
+    <string name="loginFailed">خطأ في البريد الإلكتروني وكلمة المرور</string>
+
+    <string name="createAccount">إنشاء حساب جديد</string>
+
+    <string name="selectImage">حدد صوره من الأستوديو</string>
+    <string name="subjectMessage">\n is your GOT account recovery code \n هو الرمز الخاص لاسترداد حسابك في GOT</string>
+    <string name="textMessage">Hi&#160; <xliff:g example="User" id="name">%s</xliff:g> \n We received a request to reset your GOT password \n Use this code to change your password</string>
+    <string name="textMessageArabic"> \n اهلا&#160; <xliff:g example="مستخدم" id="name">%s</xliff:g>\n لقد تلقينا طلبا لإعادة تعيين كلمة مرور GOT \n </string>
+    <string name="sentCode">تم إرسال الرمز إلي:\n</string>
+    <string name="pickedImage">لم يتم اختيار صورة</string>
+    <string name="pickedVideo">لم يتم اختيار فيديو</string>
+    <string name="cropImage">لم يتم اقتصاص صورة</string>
+    <string name="selectAddress">لم يتم تحديد عنوان</string>
+    <string name="incorrectCode">الرقم الذي أدخلته غير مطابق مع الرمز, حاول مرة اخرى </string>
+    <string name="incorrectPassword">الرقم السري غير صحيح, حاول مرة اخري</string>
+    <string name="selectAccount">من فضلك أدخل البريد الإلكتروني الخاص بك 🙂</string>
+    <string name="updatedSuccessfully">تم التحديث بنجاح</string>
+    <string name="updateFailed">فشل في التحديث</string>
+    <string name="registeredEmail">لم تسجل حساب بريد إلكتروني</string>
+
+    <string name="enterImage">من فضلك أدخل صورة شخصية</string>
+    <string name="accountUsed">هذا البريد الإلكتروني مستخدم من قبل</string>
+
+    <string name="topViews">أعلي مشاهدات</string>
+    <string name="topRates">أعلي تقييم</string>
+    <string name="suggested">المقترح لك</string>
+    <string name="newAndUpdate">الجديد والمعدل</string>
+
+    <string name="err_details_name">من فضلك إدخل تفاصيل الاعلان</string>
+    <string name="err_start_date">من فضلك إدخل تاريخ بدايه الاعلان</string>
+    <string name="err_expiry_date">من فضلك إدخل تاريخ إنتهاء الاعلان</string>
+    <string name="err_start_time">من فضلك إدخل وقت بدايه الاعلان</string>
+    <string name="err_expiry_time">من فضلك إدخل وقت إنتهاء الاعلان</string>
+    <string name="err_select_category">من فضلك حدد الفئة</string>
+    <string name="err_company_name_required">من فضلك حدد إسم الشركه</string>
+    <string name="err_visibility_required">الرجاء تحديد مرئي أو غير مرئي</string>
+
+
+    <string name="addedSuccessfully">تم الإضافة بنجاح</string>
+    <string name="addFailed">فشل في الإضافة</string>
+    <string name="confirmDeleteAd">هل بالفعل تريد حذف هذا الاعلان؟</string>
+    <string name="deleteAd">تم مسح الاعلان</string>
+    <string name="failedDeleteAd">فشل مسح الاعلان</string>
+    <string name="emailValidation">يرجى التحقق من بريدك الالكتروني لإرسال رسالة نصية تحتوي على الرمز n\الرمز الخاص بك يتكون من 6 أرقام</string>
+
+    <string name="noConnection">ليس هناك اتصال بالإنترنت</string>
+    <string name="arabic">العربية</string>
+    <string name="ad">&#160;إعلان</string>
+    <string name="ads">&#160;إعلانات</string>
+
+    <string name="err_arabic_name">Please Enter a Valid Arabic Name</string>
+
+    <string name="Email">البريد الالكتروني</string>
+    <string name="Password">كلمة المرور</string>
+    <string name="log_in">تسجيل الدخول</string>
+    <string name="signUp">انشاء حساب جديد</string>
+    <string name="sign_up"><u>انشاء حساب جديد</u></string>
+
+    <string name="Name">الاسم</string>
+    <string name="Birthday">يوم الميلاد</string>
+    <string name="Address">العنوان</string>
+    <string name="Phone">رقم الهاتف</string>
+    <string name="Submit">حفظ</string>
+    <string name="writeComment">أكتب تعليقا...</string>
+    <string name="rateAd"><u>قيم هذا الاعلان</u></string>
+    <string name="changePassword"><u>تغيير كلمه المرور</u></string>
+    <string name="currentPassword">كلمه المرور الحالية</string>
+    <string name="newPassword">كلمه المرور الجديده</string>
+    <string name="Save">حفظ</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="ForgotPassword">هل نسيت كلمة المرور ؟</string>
+    <string name="Edit">تعديل</string>
+    <string name="Update">تحديث</string>
+    <string name="Continue">استمر</string>
+    <string name="enterSixCode">أدخل الرمز المكون من 6 أرقام</string>
+    <string name="NewPassword">أدخل كلمة مرور جديدة</string>
+    <string name="newMessage">رسالة جديدة</string>
+    <string name="Subject">موضوع</string>
+    <string name="Text">نص الرساله</string>
+    <string name="Send">إرسال</string>
+    <string name="Reviews">التعليقات</string>
+    <string name="ChangePassword">تغيير كلمه المرور</string>
+    <string name="EditProfile">تعديل الصفحه الشخصية</string>
+    <string name="AllAdsCompany">جميع إعلانات هذه الشركة</string>
+    <string name="Views">معاينة</string>
+    <string name="Call">مكالمة&#160;\n</string>
+    <string name="SendSMS">أرسل رسالة نصية قصيرة</string>
+    <string name="SendEmail">ارسل بالبريد الإلكترونى</string>
+    <string name="CopyNumber">نسخ الرقم</string>
+    <string name="Delete">حذف</string>
+    <string name="Copy">نسخ</string>
+    <string name="ViewAllAds">عرض جميع الإعلانات</string>
+    <string name="ViewAllCategories">عرض جميع الفئات</string>
+    <string name="About">حول</string>
+    <string name="Logout">تسجيل الخروج</string>
+    <string name="Share">مشاركة</string>
+    <string name="ContactUs">اتصل بنا</string>
+    <string name="Communicate">التواصل</string>
+    <string name="google_place_api">AIzaSyDJBhiLQ5n5jS21PrgH8_4MnkJQB_lJauE</string>
+
+    <string name="search">بحث</string>
+
+
+    <string name="Account_App">gotadsapp@gmail.com</string>
+    <string name="phoneNumberTeam">+201117744360</string>
+    <string name="addressTeam">Cairo, Egypt</string>
+    <string name="whatsappTeam">+201141456637</string>
+    <string name="versionApp">نسخه 1.0.0</string>
+
+    <string name="summary">بسبب ارتفاع أسعار التسويق والإعلان التقليدي على شاشات التلفزيون بالإضافة إلى رغبة المستخدم في معرفة خدمات ومنتجات الشركات المختلفة ومقارنتها من حيث السعر والجودة فقد تم إنشاء تطبيق GOT لمساعدة المستخدمين والشركات على حد سواء ، مساعدة الشركات على توفير النفقات الضخمة التي تنفق على الإعلان تساعد المستخدم أيضًا على توفير الوقت والجهد للحصول على الخدمة أو المنتج الذي يريده ، وسوف يتمكن المستخدم من عرض إعلانات منتجات وخدمات الشركات ومنحها معدل التقييم ويظهر رأيه من خلال التعليق عليهم مما يساعد هؤلاء المستخدمين على توفير الوقت والجهد والمال بالإضافة إلى مساعدة المستخدمين الجدد على معرفة المنتجات الأكثر شعبية وأعلى تصنيف وكذلك مساعدة الشركات على زيادة مبيعاتها وتوفير الوقت والمال في نشر المنتج ومعرفة معدل تقييم المنتجات لتحسينها.</string>
+
+
+    <string name="sdkPhone">لا يمكن تحديد الفيديو من الهاتف ، يجب عليك استخدام هاتف أقدم من هاتفك</string>
+</resources>

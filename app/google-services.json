@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "971040311998",
+    "project_id": "firebase-advertiapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971040311998:android:4b7cc61e3cbbfdff",
+        "android_client_info": {
+          "package_name": "com.example.muhammed.advertiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971040311998-k3dtndnaj51ogdh9pvcr0fun59kta6hs.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "971040311998-4lfo3r0ciq5947ift57tffpoe9jdrt97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muhammed.advertiapp",
+            "certificate_hash": "0fc7be3484ee4ef71d21c2b42b57b8c85622d5a6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZtiJVDXrTmg1MKaWJ6NpQedKYMMoEqUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

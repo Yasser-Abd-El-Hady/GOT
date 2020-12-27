@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="colorPrimary">#3b0d53</color>-->
+    <!--<color name="colorPrimaryDark">#3e1a50</color>-->
+
+    <color name="colorPrimary">#320b46</color>
+    <color name="colorPrimaryDark">#260f31</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="offWhite">#f9f7f7</color>
+    <color name="offWhite2">#f9f7f7</color>
+    <color name="offWhite3">#f7f3f3</color>
+    <color name="black">#000000</color>
+    <color name="black2">#606060</color>
+    <color name="line">#cccaca</color>
+    <color name="red">#e4041a</color>
+    <color name="banfsgy">#e263e2</color>
+    <color name="gold">#e2cd63</color>
+
+    <color name="romady">#efebeb</color>
+
+    <color name="purple">#711163</color>
+    <color name="editTextPadding">#59097e</color>
+    <color name="editTextPadding2">#ac660d</color>
+    <color name="grey">#666161</color>
+    <color name="signupBu">#521b6e</color>
+    <color name="hintcolor">#ed0000</color>
+
+    <color name="refreshOne">#e263e2</color>
+    <color name="refreshTwo"></color>
+    <color name="refreshThree"></color>
+</resources>

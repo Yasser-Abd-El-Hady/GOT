@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--tools:context="com.example.muhammed.advertiapp.CommentActivity">-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLinearLayoutRateShow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/white"
+    android:paddingBottom="100dp"
+    tools:context="com.example.muhammed.advertiapp.CommentActivity"
+    tools:showIn="@layout/activity_comment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/editDelete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/menu"
+            android:backgroundTint="@color/purple" />
+
+        <TextView
+            android:id="@+id/timeRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:theme="@style/RatingBar" />
+
+
+    </LinearLayout>
+</LinearLayout><!--</FrameLayout>-->
